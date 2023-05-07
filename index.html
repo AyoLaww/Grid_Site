@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Grid Site</title>
+</head>
+<body>
+    <nav>
+        <div id="nav-logo-section" class="nav-section">
+            <a href="#">
+                <i class="fa-solid fa-ghost fa-xl"></i>
+            </a>
+
+        </div>
+
+        <div id="nav-link-section" class="nav-section">
+            <a href="#">ABOUT</a>
+            <a href="#">WORK</a>
+        </div>
+
+        <div id="nav-social-section" class="nav-section">
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>   
+        </div>
+
+        <div id="nav-contact-section" class="nav-section">
+            <a href="#">GET IN TOUCH</a>
+        </div>
+
+    </nav>
+    
+    <main>
+        <article data-index="0" data-status="active">
+        <div class="article-image-section" class="article-section"></div>
+            <div class="article-description-section" class="article-section">
+                <p>
+                    This a recreation of the design from the youtube channel Hyperplexed. <br> You can find them here
+                    <a href="https://www.youtube.com/@Hyperplexed"><i class="fa-brands fa-youtube fa-xl" style="color: #cc1414;"></i></a>
+                </p>
+                
+            </div>
+            <div class="article-title-section" class="article-section">
+                        <h2>CEILING LIGHTS <br> ARE COOL</h2>
+                        <i class="fa-thin fa-plus fa-2xl" style="color: #ffffff;"></i>
+                </div>
+                
+            <div class="article-nav-section" class="article-section">
+                <button class="arrow-left" onclick="handleLeftClick()"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></button>
+                <button class="arrow-right" onclick="handleRightClick()"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+            </div>
+        </article>
+
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section" class="article-section"></div>
+            <div class="article-description-section" class="article-section">
+                <p>
+                    Basketball is a game played between two teams of five players each on a rectangular court,
+                    usually indoors. Each team tries to score by tossing the ball through the opponent's goal,
+                    an elevated horizontal hoop and net called a basket.
+                </p>
+                
+            </div>
+            <div class="article-title-section" class="article-section">
+                        <h2>BASKETBALL <br> IS COOL</h2>
+                        <i class="fa-thin fa-plus fa-2xl" style="color: #ffffff;"></i>
+                </div>
+                
+            <div class="article-nav-section" class="article-section">
+                <button class="arrow-left" onclick="handleLeftClick()"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></button>
+                <button class="arrow-right" onclick="handleRightClick()"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+            </div>
+        </article>
+
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section" class="article-section"></div>
+            <div class="article-description-section" class="article-section">
+                <p>
+                    I want to travel to Italy someday. <br> It seams like a nice travel location
+                </p>
+                
+            </div>
+            <div class="article-title-section" class="article-section">
+                        <h2>VENICE IS <br> A COUNTRY</h2>
+                        <i class="fa-thin fa-plus fa-2xl" style="color: #ffffff;"></i>
+                </div>
+                
+            <div class="article-nav-section" class="article-section">
+                <button class="arrow-left" onclick="handleLeftClick()"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></button>
+                <button class="arrow-right" onclick="handleRightClick()"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+            </div>
+        </article>
+
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section" class="article-section"></div>
+            <div class="article-description-section" class="article-section">
+                <p>
+                    I don't know where this is <br> but it looks cool.
+                </p>
+                
+            </div>
+            <div class="article-title-section" class="article-section">
+                        <h2>daily architectural <br> DIGEST</h2>
+                        <i class="fa-thin fa-plus fa-2xl" style="color: #ffffff;"></i>
+                </div>
+                
+            <div class="article-nav-section" class="article-section">
+                <button class="arrow-left" onclick="handleLeftClick()"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></button>
+                <button class="arrow-right" onclick="handleRightClick()"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+            </div>
+        </article>
+    </main>
+    
+</body>
+</html>
